@@ -1,7 +1,7 @@
 import axios from "axios";
 import queryString from "query-string";
 
-const baseURL = "http://localhost:3000/";
+const baseURL = "https://entertainment-app-mitt.onrender.com";
 
 const publicClient = axios.create({
   baseURL,
